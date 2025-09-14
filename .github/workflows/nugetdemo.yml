@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   dotnetpack_nugetpush_job:
-    runs-on: ubunutu-latest
+    runs-on: openclassroom
 
     env:
       projectpath: ./nugetdemo/mydotnetpacknugetpkg/donet_project.csproj
